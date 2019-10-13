@@ -1,0 +1,8 @@
+﻿Label,Tag,Response,priority
+GRT,"hi, hello, help","Hi, how can I help you?",0
+PHN,"phone,phones","We sell both Andriod and iphone, which you want?",1
+PRCH,"purchase, buy",You can buy phones from our stores.,1
+ANDRD,android,"In andriods we have Samsung, OnePlus, Nokia",2
+ANDRD_PHN,"Samsung, OnePlus, Nokia","All models of {item} is available here, which model you want?",3
+Iphone,"iphone, apple","All models of iphones are available here, which model you want? iphone 6s,iphone 6,iphone x,iphone xr,xr",2
+Iphone_PHN,"iphone 6s,iphone 6,iphone x,iphone xr,xr",In iphone {item} we have 64 Gb and 128 GB,3
