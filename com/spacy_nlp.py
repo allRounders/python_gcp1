@@ -6,7 +6,7 @@ from pathlib import Path
 import random
 
 
-from com.util.ResourceConfig import *
+from util.ResourceConfig import *
 
 
 def offseter(lbl, doc, match_item):
@@ -38,6 +38,9 @@ def find_data(line):
     initialize()
     return get_response(line)
 
+def run():
+    to_analyse = 'hello'
+    print(find_data(to_analyse))
 
 to_analyse = 'hello'
 print(find_data(to_analyse))
